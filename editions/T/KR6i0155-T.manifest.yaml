@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0155/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0155/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說長者子懊惱三處經
+  identifiers:
+    krp: KR6i0155
+    cbeta: T14n0525
+    cbeta_old_id: T14n0525
+    authorityid: CA0004031
+    json_key: T0525
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0525.xml
+    old_id: T14n0525
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0155_000-T.yaml, hash: 'sha256:bf719e05f0ea2653af93a136715154cbb3864faed1873eb4f1647f0a2fbeb433'}
+  - {seq: 1, filename: KR6i0155_001-T.yaml, hash: 'sha256:bfde22136c1df9129c7e8d646e547aac39dfc751bb42e84ca2fa5e9d784b1b52'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0155_000-T.markers.yaml, hash: 'sha256:49fc644bcd98d47a0633588b7cc0edb6ae3d58c58a011bb6f839939a291262d6'}
+  - {seq: 1, role: markers, filename: assets/KR6i0155_001-T.markers.yaml, hash: 'sha256:558bd51afab2397ea5ec9b4eb56a49bbef8030fdf6a77a4815b1a7fc318d49f3'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0155_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 864
+  label: 佛說長者子懊惱三處經
+  type: juan
+  level: 1
+hash: sha256:b5794fa90263a486bc849a68d5e11a44f5170b21394dff08e77d1f98f738c277
