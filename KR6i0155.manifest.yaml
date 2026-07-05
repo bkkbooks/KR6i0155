@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0155_000.yaml, hash: 'sha256:bf719e05f0ea2653af93a136715154cbb3864faed1873eb4f1647f0a2fbeb433'}
-  - {seq: 1, filename: KR6i0155_001.yaml, hash: 'sha256:aee139e6c015ef597439e1544723b4c5a0d3ab091621cbbaedce9cd89254ddb6'}
+  - {seq: 1, filename: KR6i0155_001.yaml, hash: 'sha256:bfde22136c1df9129c7e8d646e547aac39dfc751bb42e84ca2fa5e9d784b1b52'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0155_001.markers.yaml, hash: 'sha256:c45aaf0ebea155bf307096eb60293cb729ee5110badc2a70fa729ff64eba8cde'}
+  - {seq: 0, role: markers, filename: assets/KR6i0155_000.markers.yaml, hash: 'sha256:3c55033e9b01b279999fdfd837132cc74c2221c61d5f24deb87ddf0e330f9c33'}
+  - {seq: 1, role: markers, filename: assets/KR6i0155_001.markers.yaml, hash: 'sha256:ad3cdc6101b89055d7c846755087a6d35b52780e7534167278a876a3967d1ad0'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 佛說長者子懊惱三處經
   type: juan
   level: 1
-hash: sha256:eca85c2fa5874370f243e054beef66a4758557e3fa79f83d8dca8f6860cfdee6
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:85ebdc80310ec123a737939dfaf5eb9fdfc6240ec2ba98b4c956f7587cc5cfaa
